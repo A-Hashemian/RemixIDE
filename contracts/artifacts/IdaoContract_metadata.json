@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Dao.sol": "IdaoContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Dao.sol": {
+			"keccak256": "0x781dc4d11a341996cba8d66b2c5ffe28efb2c0d1243824d93fe10622040bf5e7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://11a0c4aedf7c0dfeb49831d35f7d32adedee12b5a9484d02932ad2229df188da",
+				"dweb:/ipfs/QmXebgi7YPCcb5xWJJJvViWPU4LSyhALamE7forRw3AwzA"
+			]
+		}
+	},
+	"version": 1
+}
